@@ -1,0 +1,43 @@
+nav {
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        list-style: none;
+    }
+    #logo {
+        flex: 3;
+    }
+}
+
+.showcase {
+    display: grid;
+    min-height: 90vh;
+    grid-template-columns: 10% 1fr minmax(50rem, 2fr) 1fr 10%;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    h2 {
+        grid-column: 2/3;
+    }
+    h1 {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    #intro {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .libro {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+}
