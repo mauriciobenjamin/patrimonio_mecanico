@@ -37,7 +37,22 @@ nav {
         grid-row: 3/4;
     }
     .libro {
+        padding: 2rem 0;
         grid-column: 3/4;
         grid-row: 4/5;
+        p {
+            padding: 2rem 0;
+        }
+    }
+    .button {
+        border-radius: 2.5rem;
+        background-color: navy;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding: 1rem;
+        a {
+            color: oldlace;
+        }
     }
 }
